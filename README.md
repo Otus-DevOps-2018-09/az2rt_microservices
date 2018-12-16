@@ -1,2 +1,23 @@
-# az2rt_microservices
-az2rt microservices repository
+# Выполнено ДЗ № 11
+docker-2
+
+ - [ ] Основное ДЗ
+ - [ ] Задание со *
+
+## В процессе сделано:
+docker run --rm -ti tehbilly/htop - показывается htop только на одном указанном процессе
+docker run --rm --pid host -ti tehbilly/htop - отображаются все процессы хоста
+ 
+## Как запустить проект:
+ cat docker-1.log   
+
+## Как проверить работоспособность:
+ 
+
+## PR checklist
+ - [ ] Выставил label с номером домашнего задания
+ - [ ] Выставил label с темой домашнего задания
+
+docker-2
+
+
