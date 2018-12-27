@@ -1,0 +1,5 @@
+~/Study/az2rt_microservices$ docker images
+REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
+az2rt/ubuntu-tmp-file   latest              9d239946351b        4 seconds ago       116MB
+ubuntu                  16.04               a51debf7e1eb        3 weeks ago         116MB
+hello-world             latest              4ab4c602aa5e        3 months ago        1.84kB
