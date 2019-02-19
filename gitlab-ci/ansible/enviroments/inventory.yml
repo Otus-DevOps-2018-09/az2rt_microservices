@@ -1,0 +1,4 @@
+gitlab:
+    hosts:
+      appserver:
+        ansible_host: 35.233.117.228
