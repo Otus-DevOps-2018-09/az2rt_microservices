@@ -1,26 +1,20 @@
-# Выполнено ДЗ № 23
-monitoring-2
+# Выполнено ДЗ № 24
+logging-1
  - [ ] Основное ДЗ
  - [ ] Задание со *
 
 ## В процессе сделано:
-https://cloud.docker.com/u/27101988/repository/list
-добавлен мониторинг на графане
-добавлен алертнинг
-созданы дашборды на графане
+добавлен новый конфиг для разворачивания kibana+elasticsearch+fluentd
+добавлен дашборд в кабане
+настроены фильтры
+обновлено приложение
+обновлен Dockerfile в post-py
 
 ## Как запустить проект:
-(нужен запущенный инстанс docker-host)
-* docker-machine ip docker-host
-docker pull 27101988/ui
-docker pull 27101988/prometeus
-docker pull 27101988/comment
-docker pull 27101988/pull
-cd docker ; docker-compose up -d ; docker-compose-monitoring.yml up -d
+cd docker ; docker-compose up -d ; docker-compose-logging.yml up -d
 
 
 ## Как проверить работоспособность:
-
 
 ## PR checklist
  - [ ] Выставил label с номером домашнего задания
