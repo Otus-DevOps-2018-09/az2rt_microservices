@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: mongo-deployment
@@ -6,13 +6,13 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: comment
+      app: mongo
   template:
     metadata:
-      name: comment
+      name: mongo
       labels:
-        app: comment
+        app: mongo
     spec:
       containers:
       - image: az2rt/mongo:latest
-        name: comment
+        name: mongo

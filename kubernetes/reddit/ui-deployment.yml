@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -7,13 +6,13 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: comment
+      app: ui
   template:
     metadata:
-      name: comment
+      name: ui
       labels:
-        app: comment
+        app: ui
     spec:
       containers:
       - image: az2rt/ui:latest
-        name: comment
+        name: ui
