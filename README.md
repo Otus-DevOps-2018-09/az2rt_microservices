@@ -4,16 +4,22 @@ kubernetes-1
  - [ ] Задание со *
 
 ## В процессе сделано:
-https://s.mail.ru/BPk4/kyq4jAWpd
-создан кластер в GKE
-создан кластер локально
+https://s.mail.ru/DjYu/YZ7fACzCy
+добавлено шифрование
+добавлены балансировщики
+добавлены разделение http траффика
+созданы volume для mongo
+созданый динамические volume
+теперь в случае выхода из строя одного мастера, данные не потеряются
+
 
 ## Как запустить проект:
 minikube start
 kubectl apply -f reddit/
 
 ## Как проверить работоспособность:
-http://localhost:9292
+kubectl get ingress -n dev
+нужен ip под ADDRESS
 
 ## PR checklist
  - [ ] Выставил label с номером домашнего задания
